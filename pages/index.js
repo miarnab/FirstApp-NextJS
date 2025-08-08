@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 const MyComponent = () => {
 
-  const[elementCOntent, setElementContent] = useState("No element");
+  const[elementContent, setElementContent] = useState("No element");
 
   useEffect(()=>{
     const element=document.getElementById("text");
